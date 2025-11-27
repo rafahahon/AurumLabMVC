@@ -280,3 +280,4 @@ C:\Users\54568719801\Desktop\Projeto Aurum MVC\AurumLab\obj\Debug\net9.0\compres
 C:\Users\54568719801\Desktop\Projeto Aurum MVC\AurumLab\obj\Debug\net9.0\compressed\ep635egmyw-e5ifeprl1w.gz
 C:\Users\54568719801\Desktop\Projeto Aurum MVC\AurumLab\obj\Debug\net9.0\AurumLab.sourcelink.json
 C:\Users\54568719801\Desktop\Projeto Aurum MVC\AurumLab\obj\Debug\net9.0\compressed\u0hzue7lrf-fnlze7omrw.gz
+C:\Users\54568719801\Desktop\Projeto Aurum MVC\AurumLab\obj\Debug\net9.0\compressed\gco28ymkds-brzl8gycod.gz
