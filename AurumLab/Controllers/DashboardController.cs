@@ -62,7 +62,9 @@ namespace AurumLab.Controllers
                 DashboardViewModel viewModel = new DashboardViewModel
                 {
                     NomeUsuario = usuario?.NomeUsuario?? "Usuário", // ?? se nao for nulo ele recebe o nome do usuario, se for, ele coloca usuario
-                    FotoUsuario = "/assets/img/img-perfil.png",
+                    //FotoUsuario = "/assets/img/img-perfil.png",
+
+                    FotoUsuario = usuario?.Foto != null ? $"data:image/*;base64,{Convert.ToBase64String(usuario.Foto)}" : "/assets/img/img-perfil.png",
 
                     TotalDispositivos = _context.Dispositivos.Count(),
                     TotalAtivos = _context.Dispositivos.Count(dispositivos => dispositivos.SituacaoOperacional == "Operando"),

@@ -16,6 +16,7 @@ namespace AurumLab.Models
 
         public string? FotoBase64 { get; set; }
 
-        public string? FotoFinal => FotoBase64 != null ? $"data:image/*;base64,{FotoBase64}" : "/assets/img/img-perfil.png";
+        public string? FotoFinal => FotoBase64 != null ? $"data:image/*;base64,{FotoBase64}" : "/assets/img/img-perfil.png"; // caso existir uma imagem, o base64 decodifica e mostra, se nao existir, 
+        // ele retorna a imagem padrao
     }
 }
