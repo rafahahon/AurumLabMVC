@@ -25,6 +25,7 @@ public partial class Dispositivo
 
     public virtual LocalDispositivo IdLocalNavigation { get; set; } = null!;
 
+    // objeto que possui relacionamento com esse dispositivo na tabela da foreign key
     public virtual TipoDispositivo IdTipoDispositivoNavigation { get; set; } = null!;
 
     public virtual ICollection<Manutencao> Manutencaos { get; set; } = new List<Manutencao>();
